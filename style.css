@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/temp.jpg);/*maino background*/
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/background.jpg);/*maino background*/
     background-position: center;
     background-size: cover;
     position: relative;
@@ -193,6 +193,7 @@ h3{
     top: 0;
     left: 0;
     transition: 0.5s;
+    opacity: 0.9;
 }
 .layer:hover{
     background: rgba(226,0,0,0.7);
@@ -200,21 +201,39 @@ h3{
 }
 .layer h3{
     width: 100%;
-    font-weight: 500;
+    font-weight: bold;
     color: #fff;
-    font-size: 26px;
-    bottom: 0;
+    font-size: 32px;
+    bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
     position: absolute;
     opacity: 0;
     transition:0.5s;
 }
-.layer:hover h3{
-    bottom:49%;
-    opacity: 1;
+.layer p{
+    width: 100%;
+    font-weight: 100;
+    color: #fff;
+    font-size: 18px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition:0.5s;
 
 }
+.layer:hover h3{
+    bottom: 50%;
+    opacity: 1;
+}
+
+.layer:hover p{
+    bottom: 9%; 
+    opacity: 1;
+}
+
 .facilities{
     width: 80%;
     margin: auto;
@@ -247,7 +266,7 @@ h3{
     text-align: center ;
 }
 .review-col{
-    flex-basis: 44%;
+    flex-basis: 40%;
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
@@ -256,12 +275,12 @@ h3{
     cursor: pointer;
     display: flex;
 }
-.review-col img{
+/*.review-col img{
     height: 40px;
     margin-left: 5px;
     margin-right: 30px;
     border-radius: 50%;
-}
+}*/
 .review-col p{
     padding: 0;
 }
@@ -285,7 +304,7 @@ h3{
 .cta{
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/pattern.png);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/qa.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -327,7 +346,7 @@ h3{
     background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/temp2.jpg);
     background-position:center;
     background-size: cover;
-    text-align:center;
+    text-align: center;
     color: #fff;
 }
 
