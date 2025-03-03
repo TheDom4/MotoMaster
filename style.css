@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/temp.jpg);/*maino background*/
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(images/background.jpg);/*maino background*/
     background-position: center;
     background-size: cover;
     position: relative;
@@ -193,6 +193,7 @@ h3{
     top: 0;
     left: 0;
     transition: 0.5s;
+    opacity: 0.9;
 }
 .layer:hover{
     background: rgba(226,0,0,0.7);
@@ -303,7 +304,7 @@ h3{
 .cta{
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/pattern.png);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(images/qa.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
