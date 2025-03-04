@@ -40,7 +40,7 @@ nav img{
     content: '';
     width: 0%;
     height: 2px;
-    background: #f44336;
+    background: #451e5b;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -79,8 +79,8 @@ nav img{
     border-radius: 10px;
 }
 .hero-btn:hover{
-    border: 1px solid #f44336;
-    background: #f44336;
+    border: 1px solid #451e5b;
+    background: #451e5b;
     transition: 1s;
 }
 nav .fa{
@@ -96,7 +96,7 @@ nav .fa{
     }
     .nav-links{
         position: absolute;
-        background: #f44336;
+        background: #451e5b;
         height: 100vh;
         width: 200px;
         top: 0;
@@ -195,7 +195,7 @@ h3{
     opacity: 0.9;
 }
 .layer:hover{
-    background: rgba(226,0,0,0.7);
+    background: #451e5b;
 
 }
 .layer h3{
@@ -291,10 +291,10 @@ h3{
     text-align: left;
 }
 .review-col .fa{
-    color: #f44336;
+    color: #451e5b;
 }
 .review-col .far{
-    color: #f44336;
+    color: #451e5b;
 }
 @media(max-width:700px){
     .review-col img{
@@ -335,7 +335,7 @@ h3{
     font-weight: 600;
 }
 .icons.fa {
-    color: #f44336;
+    color: #451e5b;
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
@@ -376,9 +376,9 @@ h3{
 }
 
 .red-btn{
-    border: 1px solid #f44336;
+    border: 1px solid #451e5b;
     background: transparent;
-    color: #f44336;
+    color: #451e5b;
 }
 
 .red-btn:hover{
